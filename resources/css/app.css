@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {@apply bg-gray-100 text-gray-700 text-center text-sm p-6;}
+
+h1 {@apply text-gray-900 text-lg;}
+
+a {@apply text-cyan-700 text-sm underline;}
+
+input, textarea {@apply py-1 px-2 outline-none border-2 border-gray-100 rounded-md w-full;}
+
+button {@apply py-1 px-2 bg-gray-100 rounded-md;}
+
+form {@apply rounded-lg bg-white w-80 p-6 flex flex-col gap-2;}
+
+.page {@apply flex justify-center flex-col items-center gap-3 p-3;}
+
+
+.profile {@apply rounded-lg bg-white w-80 p-6 flex flex-col gap-3;}
+
+.profile label {@apply py-1 px-2 flex flex-col items-start text-base shadow rounded-md ;}
+
+.profile label span {@apply text-xs text-gray-500;}
+
+
+.post {@apply rounded-lg bg-white w-96 p-6 flex flex-col items-center;}
+
+.post .image {@apply h-20;}
+
+.post .image img {@apply h-full;}
+
+
+.detail {@apply rounded-lg bg-white w-96 p-6 flex flex-col gap-2;}
+
+.detail .image {@apply w-full flex justify-center;}
+
+.detail p {@apply text-sm text-gray-500;}
+
+
+.info {@apply rounded-lg bg-white w-96 p-6 flex flex-col gap-6;}
+
+.info span {@apply text-sm text-gray-500;}
